@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5944916C276374BD002E67DC /* MonefyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944916B276374BD002E67DC /* MonefyApp.swift */; };
+		5944916E276374BD002E67DC /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944916D276374BD002E67DC /* OverviewView.swift */; };
+		59449170276374BF002E67DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5944916F276374BF002E67DC /* Assets.xcassets */; };
+		59449173276374BF002E67DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59449172276374BF002E67DC /* Preview Assets.xcassets */; };
+		5998E821276662A900055D28 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E820276662A900055D28 /* TransactionsView.swift */; };
+		5998E8232767416500055D28 /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E8222767416500055D28 /* NewTransactionView.swift */; };
+		5998E827276761E900055D28 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E826276761E900055D28 /* Transaction.swift */; };
+		5998E82D276864D900055D28 /* prova.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E82C276864D900055D28 /* prova.swift */; };
+		5998E8362768A2C700055D28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E8352768A2C700055D28 /* ContentView.swift */; };
+		5998E83E2768A9BB00055D28 /* OverviewListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E83D2768A9BB00055D28 /* OverviewListRow.swift */; };
+		5998E8422769DC0000055D28 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E8412769DC0000055D28 /* Category.swift */; };
+		5998E8442769DC9F00055D28 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5998E8432769DC9F00055D28 /* Categories.swift */; };
+		59F1ACF92764C9EA00251079 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1ACF82764C9EA00251079 /* PieSliceView.swift */; };
+		59F1ACFB2764CAA200251079 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1ACFA2764CAA100251079 /* PieChartView.swift */; };
+		59F1ACFD2764EB6700251079 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1ACFC2764EB6700251079 /* PieSliceData.swift */; };
+		59F1ACFF2764F80800251079 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1ACFE2764F80800251079 /* extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59449168276374BD002E67DC /* Monefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5944916B276374BD002E67DC /* MonefyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonefyApp.swift; sourceTree = "<group>"; };
+		5944916D276374BD002E67DC /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		5944916F276374BF002E67DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59449172276374BF002E67DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5998E820276662A900055D28 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		5998E8222767416500055D28 /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
+		5998E826276761E900055D28 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5998E82C276864D900055D28 /* prova.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prova.swift; sourceTree = "<group>"; };
+		5998E8352768A2C700055D28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5998E83D2768A9BB00055D28 /* OverviewListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewListRow.swift; sourceTree = "<group>"; };
+		5998E8412769DC0000055D28 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5998E8432769DC9F00055D28 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		59F1ACF82764C9EA00251079 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		59F1ACFA2764CAA100251079 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		59F1ACFC2764EB6700251079 /* PieSliceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceData.swift; sourceTree = "<group>"; };
+		59F1ACFE2764F80800251079 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59449165276374BD002E67DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5944915F276374BD002E67DC = {
+			isa = PBXGroup;
+			children = (
+				5944916A276374BD002E67DC /* Monefy */,
+				59449169276374BD002E67DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59449169276374BD002E67DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59449168276374BD002E67DC /* Monefy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5944916A276374BD002E67DC /* Monefy */ = {
+			isa = PBXGroup;
+			children = (
+				59F1ACFE2764F80800251079 /* extensions.swift */,
+				5944916B276374BD002E67DC /* MonefyApp.swift */,
+				5998E8332768A26500055D28 /* View */,
+				5998E83A2768A32C00055D28 /* Model */,
+				5944916F276374BF002E67DC /* Assets.xcassets */,
+				5998E82C276864D900055D28 /* prova.swift */,
+				59449171276374BF002E67DC /* Preview Content */,
+			);
+			path = Monefy;
+			sourceTree = "<group>";
+		};
+		59449171276374BF002E67DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59449172276374BF002E67DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5998E8332768A26500055D28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5998E8352768A2C700055D28 /* ContentView.swift */,
+				5998E8342768A26F00055D28 /* PieChart */,
+				5998E8372768A30500055D28 /* Overview */,
+				5998E8382768A31500055D28 /* NewTransaction */,
+				5998E8392768A32400055D28 /* Transactions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5998E8342768A26F00055D28 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				59F1ACF82764C9EA00251079 /* PieSliceView.swift */,
+				59F1ACFA2764CAA100251079 /* PieChartView.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		5998E8372768A30500055D28 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				5944916D276374BD002E67DC /* OverviewView.swift */,
+				5998E83D2768A9BB00055D28 /* OverviewListRow.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		5998E8382768A31500055D28 /* NewTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				5998E8222767416500055D28 /* NewTransactionView.swift */,
+			);
+			path = NewTransaction;
+			sourceTree = "<group>";
+		};
+		5998E8392768A32400055D28 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				5998E820276662A900055D28 /* TransactionsView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		5998E83A2768A32C00055D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59F1ACFC2764EB6700251079 /* PieSliceData.swift */,
+				5998E826276761E900055D28 /* Transaction.swift */,
+				5998E8412769DC0000055D28 /* Category.swift */,
+				5998E8432769DC9F00055D28 /* Categories.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59449167276374BD002E67DC /* Monefy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59449176276374BF002E67DC /* Build configuration list for PBXNativeTarget "Monefy" */;
+			buildPhases = (
+				59449164276374BD002E67DC /* Sources */,
+				59449165276374BD002E67DC /* Frameworks */,
+				59449166276374BD002E67DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monefy;
+			productName = Monefy;
+			productReference = 59449168276374BD002E67DC /* Monefy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59449160276374BD002E67DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					59449167276374BD002E67DC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 59449163276374BD002E67DC /* Build configuration list for PBXProject "Monefy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5944915F276374BD002E67DC;
+			productRefGroup = 59449169276374BD002E67DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59449167276374BD002E67DC /* Monefy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59449166276374BD002E67DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59449173276374BF002E67DC /* Preview Assets.xcassets in Resources */,
+				59449170276374BF002E67DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59449164276374BD002E67DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5998E82D276864D900055D28 /* prova.swift in Sources */,
+				5998E8442769DC9F00055D28 /* Categories.swift in Sources */,
+				5998E8362768A2C700055D28 /* ContentView.swift in Sources */,
+				59F1ACFB2764CAA200251079 /* PieChartView.swift in Sources */,
+				5944916E276374BD002E67DC /* OverviewView.swift in Sources */,
+				59F1ACFD2764EB6700251079 /* PieSliceData.swift in Sources */,
+				5944916C276374BD002E67DC /* MonefyApp.swift in Sources */,
+				59F1ACF92764C9EA00251079 /* PieSliceView.swift in Sources */,
+				5998E83E2768A9BB00055D28 /* OverviewListRow.swift in Sources */,
+				59F1ACFF2764F80800251079 /* extensions.swift in Sources */,
+				5998E8422769DC0000055D28 /* Category.swift in Sources */,
+				5998E8232767416500055D28 /* NewTransactionView.swift in Sources */,
+				5998E821276662A900055D28 /* TransactionsView.swift in Sources */,
+				5998E827276761E900055D28 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59449174276374BF002E67DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59449175276374BF002E67DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59449177276374BF002E67DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monefy/Preview Content\"";
+				DEVELOPMENT_TEAM = 2G8PXYNWSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elviraleveque.Monefy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59449178276374BF002E67DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Monefy/Preview Content\"";
+				DEVELOPMENT_TEAM = 2G8PXYNWSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elviraleveque.Monefy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59449163276374BD002E67DC /* Build configuration list for PBXProject "Monefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59449174276374BF002E67DC /* Debug */,
+				59449175276374BF002E67DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59449176276374BF002E67DC /* Build configuration list for PBXNativeTarget "Monefy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59449177276374BF002E67DC /* Debug */,
+				59449178276374BF002E67DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59449160276374BD002E67DC /* Project object */;
+}
